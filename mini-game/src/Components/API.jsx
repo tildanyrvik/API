@@ -19,9 +19,10 @@ function API () {
 
     return(
         <div>
-            <p>Message: {dogImage.message}</p>
+            <h1>Dog image generator!</h1>
+            <img src={dogImage.message} alt="Randomized image of dog" />
             <br />
-            <button oncClick={generateImage}>Generate new image</button>
+            <button onClick={generateImage}>Generate new image</button>
         </div>
     );
 };
