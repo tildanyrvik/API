@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "./API.css";
 
 function API () {
     const [dogImage, setDogImage] = useState([ ]);
@@ -19,10 +20,10 @@ function API () {
 
     return(
         <div>
-            <h1>Dog image generator!</h1>
+            <h1>Dog image generator</h1>
             <img src={dogImage.message} alt="Randomized image of dog" />
             <br />
-            <button onClick={generateImage}>Generate new image</button>
+            <button className="button" onClick={generateImage}>Generate new image</button>
         </div>
     );
 };

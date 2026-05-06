@@ -1,0 +1,9 @@
+.h1 {
+    font-size: 72px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+.button {
+    background-color: blue;
+}
