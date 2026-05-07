@@ -1,5 +1,7 @@
 body {
     background: linear-gradient(to bottom, #FA8FCA, #F52798);
     min-height: 100vh;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
