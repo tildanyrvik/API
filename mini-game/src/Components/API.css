@@ -4,11 +4,22 @@
     overflow: hidden;
 }
 
+.heading {
+    font-family: "Average Sans", sans-serif;
+}
+
 .image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 .button {
-    background-color: blue;
+    background-color: #6B91EF;
+    font-family: "Average Sans", sans-serif;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #A2B9F5;
 }
