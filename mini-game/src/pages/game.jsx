@@ -1,6 +1,6 @@
 import API from "../Components/API.jsx";
 
-function game () {
+function Game () {
 
     return (
         <div>
@@ -9,4 +9,4 @@ function game () {
     )
 }
 
-export default game;
+export default Game;

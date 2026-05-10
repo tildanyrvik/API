@@ -8,8 +8,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <route path="/" element={<Registration /> } />
-          <route path="/game" element={<Game /> } />
+          <Route path="/" element={<Registration /> } />
+          <Route path="/game" element={<Game /> } />
         </Routes>
       </BrowserRouter>
     </div>
